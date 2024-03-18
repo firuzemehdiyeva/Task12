@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    color: black;
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: white;
+    padding: 12px 20px;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.close-menu {
+    font-size: 20px;
+    padding: 19px;
+    margin: 10px;
+}
+
+.image {
+    background-image: url(home01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h2 {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+}
+
+.image h2 {
+    position: absolute;
+    top: 75%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 3.5px;
+    animation: textanimation 1.5s ease-in-out;
+}
+
+@keyframes textanimation {
+    0% {
+        letter-spacing: 20px;
+    }
+
+    100% {
+        letter-spacing: 1px;
+    }
+}
+
+.sag {
+    width: 700px;
+    float: right;
+    padding: 30px;
+    font-size: 20px;
+    margin-right: 30px;
+    letter-spacing: 1.5px;
+}
+
+.sol {
+    float: left;
+    padding: 30px;
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+.wrapper {
+    display: grid;
+    background-color: white;
+    width: 900px;
+    max-width: 100%;
+    height: 100vh;
+    margin: 30px auto;
+    grid-gap: 15px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+}
+
+.box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box.one {
+    grid-column: span 4;
+    grid-row: span 3;
+    background-image: url(home2.jpg);
+}
+
+.box.two {
+    grid-column: span 2;
+    grid-row: span 3;
+    background-image: url(home6.jpg);
+}
+
+.box.three {
+    grid-column: span 2;
+    grid-row: span 3;
+    background-image: url(home01.jpg);
+}
+
+.box.four {
+    grid-column: span 2;
+    grid-row: span 3;
+    background-image: url(home3.jpg);
+}
+
+.box.five {
+    grid-column: span 2;
+    grid-row: span 3;
+    background-image: url(home4.jpg);
+}
+
+.metn {
+    font-size: 12px;
+    color: rgb(22, 21, 21);
+    margin-left: 225px;
+    letter-spacing: 1px;
+}
+
+.hisse {
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    height: 20vh;
+    margin-top: 20px;
+    border: color white
+}
+
+.sag1 {
+    width: 400px;
+    color: white;
+    float: right;
+    padding: 30px;
+    font-size: 10px;
+    margin-right: 110px;
+    letter-spacing: 1px;
+}
+
+.sol1 {
+    float: left;
+    padding: 30px;
+    margin-left: 195px;
+    font-size: 20px;
+    color: white;
+}
+
+.hisse1 {
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    height: 20vh;
+    margin-top: 0.5px;
+    border: color white
+}
+
+.sag1 {
+    width: 400px;
+    color: white;
+    float: right;
+    padding: 30px;
+    font-size: 15px;
+    margin-right: 110px;
+    letter-spacing: 1px;
+}
+
+.sol1 {
+    float: left;
+    padding: 30px;
+    margin-left: 215px;
+    font-size: 20px;
+    color: white;
+}
+
+.hisse2 {
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    height: 20vh;
+    margin-top: 0.5px;
+    border: color white
+}
+
+.sag1 {
+    width: 400px;
+    color: white;
+    float: right;
+    padding: 30px;
+    font-size: 10px;
+    margin-right: 110px;
+    letter-spacing: 1px;
+}
+
+.sol1 {
+    float: left;
+    padding: 30px;
+    margin-left: 195px;
+    font-size: 20px;
+    color: white;
+}
+
+.ikilihisse {
+    display: flex;
+    align-items: center;
+
+}
+
+.ikilihisse h1 {
+    width: 800px;
+    padding: 30px;
+    font-size: 25px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+.ikilihisse p {
+    padding: 30px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    position: relative;
+    width: 251px;
+    left: 30px;
+    opacity: 1;
+    transition: 1s;
+}
+
+.logo img:hover {
+    opacity: 0.03;
+}
+
+.kartlar {
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(216, 216, 230);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.kartlarrrr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.kartlar img {
+    width: 250px;
+    height: 150px;
+}
+
+.kartlarrrr img {
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.kartlarrrr img:hover {
+    opacity: 0.5;
+}
+
+.kart1 {
+    display: flex;
+    align-items: center;
+}
+
+.kart2 {
+    display: flex;
+    align-items: center;
+}
+
+.kart3 {
+    display: flex;
+    align-items: center;
+}
+
+.kart4 {
+    display: flex;
+    align-items: center;
+}
+
+.kartlarrrr p {
+    font-size: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.kartlarrrr p:hover {
+    color: rgb(228, 158, 74);
+}
+
+.sonnn {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    letter-spacing: 3px;
+}
